@@ -31,4 +31,4 @@ spring:
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
 
 general:
-  kafka-topic: transactions
+  kafka-topic: trader-updates
