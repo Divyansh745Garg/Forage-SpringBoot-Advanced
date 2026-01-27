@@ -27,4 +27,8 @@ public class TransactionRecord {
     }
 
     // Getters and Setters...
+    private float incentive; // To record the bonus amount alongside the transaction
+
+    public float getIncentive() { return incentive; }
+    public void setIncentive(float incentive) { this.incentive = incentive; }
 }
