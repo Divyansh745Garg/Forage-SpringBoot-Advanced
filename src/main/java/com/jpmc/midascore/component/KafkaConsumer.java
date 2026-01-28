@@ -34,7 +34,7 @@ public class KafkaConsumer {
             // 3. Call the Incentive API
             // Note: Spring handles the serialization of the Transaction object automatically
             Incentive incentive = restTemplate.postForObject(
-                "http://localhost:8080/incentive", 
+                "http://localhost:33400/incentive", 
                 transaction, 
                 Incentive.class
             );
